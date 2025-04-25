@@ -1,0 +1,181 @@
+@media (max-width: 580px) {
+    .nav-icons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 0px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-icons {
+        display: flex;
+        align-items: center;
+        gap: 0px;
+    }
+
+    .navbar-brand  {
+        font-size: 16px !important;
+        font-weight: 400;
+    }
+
+    /* زر التوجل */
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-social ,.nav-links {
+        display: none; /* إخفاء في البداية */
+        text-align: center;
+        justify-self:center;
+        padding: 10px 0;
+        flex-direction: column; /* جعل العناصر عمودية */
+        position: absolute;
+        top: 100%; /* تأكد من أن القائمة ستظهر أسفل الزر */
+        left: 0;
+        width: 100%; /* عرض الشاشة بالكامل */
+        background-color: #fff;
+        height: auto; /* نسمح للعناصر بالتمدد حسب المحتوى */
+        z-index: 1000;
+        font-size: small;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* تأثير ظل */
+    }
+
+    /* عند تفعيل التوجل، إظهار القائمة */
+    .nav-social.show ,.nav-links {
+        display: flex;
+    }
+
+    /* إخفاء الروابط وشريط البحث بشكل افتراضي في الشاشات الصغيرة */
+    .navbar-bottom .nav-links,
+    .search-box {
+        display: none;
+    }
+
+    /* إظهار الروابط وشريط البحث عند تفعيل التوجل */
+    .navbar-bottom .nav-links.show,
+    .search-box.show {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-social {
+        display: none; /* إخفاء في البداية */
+        flex-direction: column; /* جعل العناصر عمودية */
+        position: absolute;
+        top: 100%; /* تأكد من أن القائمة ستظهر أسفل الزر */
+        left: 0;
+        width: 100%; /* عرض الشاشة بالكامل */
+        background-color: #fff;
+        height: auto; /* نسمح للعناصر بالتمدد حسب المحتوى */
+        z-index: 1000;
+        font-size: small;
+    }
+
+    .nav-social.show {
+        display: flex;
+    }
+
+    .nav-links {
+        font-size: 15px;
+        gap: 10px;
+    }
+
+    /* إخفاء الروابط وشريط البحث بشكل افتراضي */
+    .navbar-bottom .nav-links,
+    .search-box {
+        display: none;
+    }
+
+    /* إظهار الروابط وشريط البحث عند تفعيل التوجل */
+    .navbar-bottom .nav-links.show,
+    .search-box.show {
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+/* slider */
+@media screen and (max-width: 768px) {
+    .custom-caption h1 {
+        font-size: 40px; /* تقليل حجم الخط للشاشات المتوسطة */
+        margin-top: 30px;
+    }
+
+    .custom-caption button {
+        width: 130px;
+        height: 35px;
+        font-size: 16px;
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .custom-caption h1 {
+        font-size: 30px; /* تصغير حجم الخط لشاشات الجوال */
+        margin-top: 2px;
+        width: 90%;
+    }
+
+    .custom-caption button {
+        width: 120px; 
+        height: 30px; 
+        font-size: 14px; 
+        margin-top: 140px; /* تقليل المسافة العلوية حتى لا يختفي الزر */
+    }
+}
+/* chatboot------- */
+/* شات بوت بحجم ثابت على الديسكتوب */
+#chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 340px;
+    height: 80%;
+    background: rgb(239, 244, 245);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    overflow: hidden;
+    z-index: 9999999999;
+   
+}
+
+/* جعل الشات بوت يملأ الشاشة بالكامل عند فتحه على الموبايل */
+@media (max-width: 600px) {
+    #chat-container {
+        width: 99vw; 
+        height: 99vh; 
+        bottom: 0;
+        right: 0;
+        border-radius: 0; 
+    }
+
+    .chat-header {
+        font-size: 18px; /* تكبير العنوان */
+        padding:10px 30px;
+    }
+
+    .chat-body {
+        height: calc(100% - 60px); /* يجعل الرسائل تملأ الشاشة مع ترك مساحة للهيدر */
+        padding: 15px;
+    }
+
+    .input-container input {
+        font-size: 16px; /* تكبير الخط */
+        padding: 12px 50px; /* تباعد مناسب */
+    }
+}

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Deina's Bites</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="respondive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+
+    </head>
+
+<body>
+
+    <nav class="navbar1">
+        <!-- الجزء العلوي -->
+        <div class="navbar-top">
+            <div class="container">
+                <div class="nav-actions">
+                    <div class="navbar-brand">Deina's Bites</div>
+                    <div class="search-box">
+                        <button><svg width="20px" height="20px" xmlns="http://www.w3.org/2000/svg" viewBox="5 5 14 14"
+                                aria-hidden="true">
+                                <path fill="currentColor"
+                                    d="m15.683 14.6 3.265 3.265a.2.2 0 0 1 0 .282l-.8.801a.2.2 0 0 1-.283 0l-3.266-3.265a5.961 5.961 0 1 1 1.084-1.084zm-4.727 1.233a4.877 4.877 0 1 0 0-9.754 4.877 4.877 0 0 0 0 9.754z">
+                                </path>
+                            </svg>
+                        </button>
+
+                        <input type="text" placeholder="SEARSH..." class="input-box">
+                    </div>
+
+                    <div class="nav-icons">
+                        <div class="user-icon">
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path
+                                        d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2zM6.023 15.416C7.491 17.606 9.695 19 12.16 19c2.464 0 4.669-1.393 6.136-3.584A8.968 8.968 0 0 0 12.16 13a8.968 8.968 0 0 0-6.137 2.416zM12 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                </g>
+                            </svg>
+                            <a href="#"><span class="Log-In"> Log In</span></a>
+                        </div>
+                        <a href="javascript:void(0)" id="open-cart-btn">
+                            <span class="cart-shop">
+                                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="20px" height="20px"
+                                    viewBox="5.7 0 105.5 126.1" preserveAspectRatio="xMinYMax meet"
+                                    data-hook="svg-icon-1">
+                                    <path d="M99.8 28.4c0-1.2-0.9-2-2.1-2h-15c0 3.2 0 7.6 0 8.2 0 1.5-1.2 2.6-2.6 2.9
+                                        -1.5 0.3-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.9 0-4.7 0-8.2H40.1c0 3.2 0 7.3 0 8.2 0 1.5-1.2 2.9-2.6 2.9
+                                        -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-0.6 0-5 
+                                        0-8.2h-15c-1.2 0-2 0.9-2 2L8.3 124c0 1.2 0.9 2.1 2.1 2.1h96.3c1.2
+                                        0 2.1-0.9 2.1-2.1L99.8 28.4z"></path>
+                                    <path
+                                        d="M59.1 5.9c-2.9 0-2 0-2.9 0 
+                                        -2 0-4.4 0.6-6.4 1.5 -3.2 1.5-5.9 4.1-7.6 7.3 -0.9 1.8-1.5 3.5-1.8 5.6 0 0.9-0.3 1.5-0.3 2.3 0 1.2 0 2.1 0 3.2 0 1.5-1.2 2.9-2.6 2.9 -1.5 0-2.9-0.9-3.2-2.3 0-0.3 0-0.3 0-0.6 0-1.2 0-2.3 0-3.5 0-3.2 0.9-6.4 2-9.4 1.2-2.3 2.6-4.7 4.7-6.4 3.2-2.9 6.7-5 11.1-5.9C53.5 0.3 55 0 56.7 0c1.5 0 2.9 0 4.4 0 2.9 0 5.6 0.6 7.9 1.8 2.6 1.2 5 2.6 6.7 4.4 3.2 3.2 5.3 6.7 6.4 11.1 0.3 1.5 0.6 3.2 0.6 4.7 0 1.2 0 2.3 0 3.2 0 1.5-1.2 
+                                        2.6-2.6 2.9s-2.9-0.9-3.2-2.3c0-0.3 0-0.3 0-0.6
+                                        0-1.2 0-2.6 0-3.8 0-2.3-0.6-4.4-1.8-6.4 -1.5-3.2-4.1-5.9-7.3-7.3 -1.8-0.9-3.5-1.8-5.9-1.8C61.1 5.9 59.1 5.9 59.1 5.9L59.1 5.9z">
+                                    </path>
+                                    <text x="58.5" y="77" dy=".35em" text-anchor="middle" class="uxskpx"
+                                        data-hook="items-count" id="cart-count">0</text>
+                                </svg>
+                            </span>
+                        </a>
+                        <div id="cart-sidebar" class="cart-sidebar">
+                            <div
+                                class="cart-header d-flex justify-content-between align-items-center p-3 border-bottom">
+                                <h5 class="mb-0">CART <span id="cart-count">(items)</span></h5>
+                                <button id="close-cart-btn" class="btn btn-sm">
+                                    <i class="bi bi-x-lg"></i>
+                                    
+                                </button>
+                            </div>
+
+                            <div id="cart-items-container" class="p-3"></div>
+
+                            <div class="cart-footer p-3 border-top">
+                                <div class="d-flex justify-content-between">
+                                    <strong>Subtotal</strong>
+                                    <span id="cart-subtotal"></span>
+                                    <div class="cart-buttons">
+                                        <button id="view-cart-btn" class="view-cart">View Cart</button>
+                                        <button id="checkout-btn" class="checkout">Checkout</button>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- الجزء السفلي -->
+        <div class="navbar-bottom">
+            <div class="container">
+
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="product.html">SHOP</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+<button class="menu-toggle">☰</button>
+                <ul class="nav-social">
+                    <li><a href="#">INSTAGRAM</a></li>
+                    <li><a href="#">FACEBOOK</a></li>
+                    <li><a href="#">YOUTUBE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- slider -->
+
+    <div class="conta">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/84770f_d171f69003de4ad3aa1f09d0143444a1~mv2.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption custom-caption">
+                        <h1>
+                            100% NATURAL.<br>
+                            HOMEMADE<br>
+                            FRESH COOKIES.<br>
+                        </h1>
+                        <div class="SHOP_NOW">
+                            <a href="product.html"><button>SHOP NOW</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/84770f_d7589dc2089e46a29a32cc6e372e02d1~mv2.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption custom-caption">
+                        <h1>
+                            100% NATURAL.<br>
+                            HOMEMADE<br>
+                            FRESH COOKIES.<br>
+                        </h1>
+                        <div class="SHOP_NOW">
+                            <a href="product.html"><button>SHOP NOW</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slid.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption custom-caption">
+                        <h1>
+                            100% NATURAL.<br>
+                            HOMEMADE<br>
+                            FRESH COOKIES.<br>
+                        </h1>
+                        <div class="SHOP_NOW">
+                            <a href="product.html"><button>SHOP NOW</button></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- إزالة الأسهم -->
+            <!-- </div> -->
+
+        </div>
+    </div>
+    <section>
+        <div class="mosTpro">
+            <p class="Best-sell">Best <strong> Seller</strong></p>
+        </div>
+        <div class="container mt-4">
+            <div id="plantsSectionContainer" class="row"></div>
+        </div>
+    </section>
+
+
+
+    <!-- //////// -->
+    <div class="container container-2">
+        <div class="cont-color">
+            <div class="follow-me">
+                <span>/ FOLLOW ME FOR MORE BITES</span><br>
+                <div class="cooc_kies">
+                    <a href="product.html"><button class="boTT">ALL COOKIES</button></a>
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="all-cookies">
+                        <div class="image-wrapper">
+                            <img src="img/01.jpg" alt="Cookie 1" class="img-fluid">
+                            <div class="desc-overlay">
+                                <p>
+                                    deinas_bites #wix, #website, #freewebsite, #websitetemplate, #wix.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="all-cookies">
+                        <div class="image-wrapper">
+                            <img src="img/02.jpg" alt="Cookie 2" class="img-fluid">
+                            <div class="desc-overlay">
+                                <p>
+                                    deinas_bites #wix, #website, #freewebsite, #websitetemplate, #wix.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="all-cookies">
+                        <div class="image-wrapper">
+                            <img src="img/03.jpg" alt="Cookie 3" class="img-fluid">
+                            <div class="desc-overlay">
+                                <p>
+                                    deinas_bites #wix, #website, #freewebsite, #websitetemplate, #wix.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="all-cookies">
+                        <div class="image-wrapper">
+                            <img src="img/04.jpg" alt="Cookie 4" class="img-fluid">
+                            <div class="desc-overlay">
+                                <p>
+                                    deinas_bites #wix, #website, #freewebsite, #websitetemplate, #wix.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="all-cookies">
+                        <div class="image-wrapper">
+                            <img src="img/05.jpg" alt="Cookie 5" class="img-fluid">
+                            <div class="desc-overlay">
+                                <p>
+                                    deinas_bites #wix, #website, #freewebsite, #websitetemplate, #wix.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="all-cookies">
+                        <div class="image-wrapper">
+                            <img src="img/06.jpg" alt="Cookie 6" class="img-fluid">
+                            <div class="desc-overlay">
+                                <p>
+                                    deinas_bites
+
+
+
+
+
+                                    #wix, #website, #freewebsite, #websitetemplate, #wix.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="load-d">
+                <a href="product.html"><button>Load More</button></a>
+            </div>
+        </div>
+    </div>
+    <section class="testimonials">
+        <div class="container">
+          <h2>Testimonials</h2>
+          <div class="line"></div>
+          <p class="description">
+            Lorem Ipsum proin gravida nibh vel velit auctor aliquetenean sollicitudin, lorem qui auctor, nisi elit consequat gravida nibh vel velit auctor lorem qui bibendum auctor
+          </p>
+    
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="testimonial-card d-flex flex-column justify-content-between h-100">
+                <p>Omnis iste natus error sit. Ptatem dat accusantium unde omnis sed ut. Iste error sit sed ut perspiciati. Voluptatem londis.</p>
+                <div class="d-flex align-items-center mt-4 testimonial-footer">
+                  <img src="./img/about-us-team-img-2.jpg" alt="Shelly Mccard">
+                  <div class="ms-3 text-start">
+                    <div class="name">Shelly Mccard</div>
+                    <div class="role">Chef Kitchen</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-4">
+              <div class="testimonial-card d-flex flex-column justify-content-between h-100">
+                <p>Ptatem accusantium unde omnis sed ut. Iste error sit sed ut amnis perspiciati. Voluptatem omnis sed accusant unde erspiciati.</p>
+                <div class="d-flex align-items-center mt-4 testimonial-footer">
+                  <img src="./img/84770f_a423cbb778164df2872e55983f2899e2~mv2_d_5760_3840_s_4_2.avif" alt="Kevin Alvarez">
+                  <div class="ms-3 text-start">
+                    <div class="name">Kevin Alvarez</div>
+                    <div class="role">Cookie Maker</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-4">
+              <div class="testimonial-card d-flex flex-column justify-content-between h-100">
+                <p>Iste error sit sed ut sit perspiciati unde sed volu. Voluptatem accusantium unde error sed ut unde perspiciatis omnis accus eto.</p>
+                <div class="d-flex align-items-center mt-4 testimonial-footer">
+                  <img src="./img/about-us-team-img-4.jpg" alt="Darrin Vargas">
+                  <div class="ms-3 text-start">
+                    <div class="name">Darrin Vargas</div>
+                    <div class="role">Chef Kitchen</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </section>
+    <div class=" container  container-4">
+        <div class="row d-flex justify-content-center">
+
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+
+                <div class="cont-i">
+                    <div class="get-fresh">
+                        <svg preserveAspectRatio="xMidYMid meet" data-bbox="32.5 16 135.2 168.1"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="32.5 16 135.2 168.1" role="presentation"
+                            aria-hidden="true">
+                            <g>
+                                <path d="M159.6 58.3h-18.4V54c0-13.7-9.6-25.4-22.8-28-1.7-.3-3.5-.5-5.3-.5-1.7
+             0-3 1.3-3 3s1.3 3 3 3c1.4 0 2.8.1 4.2.4 10.4 2 18 11.3 18 
+             22.1v4.3h-24.5v-12c0-16.7-13.4-30.3-29.9-30.3h-3.6c-16.5 0-29.9
+              13.6-29.9 30.3v12h-7c-4.3 0-7.9 3.5-7.9 7.9v110c0 4.3 3.5 7.9 7.9
+               7.9h119.3c4.3 0 7.9-3.5 8-7.9v-110c-.3-4.4-3.8-7.9-8.1-7.9zm-106.3-12C53.3 
+               32.9 64 22 77.2 22h3.6c13.2 0 23.9 10.9 23.9 24.3v12H87.4V56c0-6 2.3-11.7
+                6.5-15.9 1.2-1.2 1.2-3.1 0-4.2-1.2-1.2-3.1-1.2-4.2 0-5.3 5.4-8.2 12.5-8.2 
+                20.1v2.2H53.3V46.3zM38.5 176.1V66.2c0-1 .8-1.9 1.9-1.9l7-.1v14.9c0 1.7
+                 1.3 3 3 3s3-1.3 3-3V64.3h51.5v14.9c0 1.7 1.3 3 3 3s3-1.3 3-3V64.3h15.2V178H40.3c-1 
+                 0-1.8-.8-1.8-1.9zm123.1
+             0c-.1 1-.9 1.9-2 1.9H149v-53.7c0-1.7-1.3-3-3-3s-3 1.3-3 
+             3V178h-11.1V64.3H143v32.4c0 1.7 1.3 3 3 3s3-1.3 3-3V64.3h10.6c1
+              0 1.9.8 2 1.9v109.9z"></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <span>
+                        NEW PICK UP SERVICE
+                        Get it fresh</span>
+                    <p>Get it fresh</p>
+                </div>
+            </div>
+
+
+            <div class=" col-sm-6 col-md-4 col-lg-3 text-center">
+                <div class="cont-i">
+                    <div class="get-fresh">
+                        <svg preserveAspectRatio="xMidYMid meet" data-bbox="13.5 40.8 173 118.3"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="13.5 40.8 173 118.3" role="presentation"
+                            aria-hidden="true">
+                            <g>
+                                <path
+                                    d="M179.7 80.6H163L144 45c-1.4-2.6-4-4.2-6.9-4.2H43.7c-4.4 0-7.9 3.7-7.9 8.2v14.7H16.5c-1.7 0-3 1.3-3 3s1.3 3 3 3h32.4c1.7 0 3-1.3 3-3s-1.3-3-3-3h-7.1V49c0-1.2.9-2.2 1.9-2.2h93.4c.6 0 1.3.4 1.6 1l20.7 38.7h20.3c.4 0 .8.5.8 1v29.6h-66.3v-58c0-1.7-1.3-3-3-3s-3 1.3-3 3v58H41.8V87.5h7.1c1.7 0 3-1.3 3-3s-1.3-3-3-3h-7.1v-3.8c0-1.7-1.3-3-3-3s-3 1.3-3 3v3.8h-7.6c-1.7 0-3 1.3-3 3s1.3 3 3 3h7.6v51.1c0 4.5 3.5 8.1 7.9 8.1h13.5c1.4 7.1 7.7 12.4 15.2 12.4 8.5 0 15.5-7 15.5-15.5s-7-15.5-15.5-15.5c-7.6 0-13.9 5.4-15.2 12.6H43.7c-1 0-1.9-1-1.9-2.1v-15.5h138.7v15.5c0 1.2-.8 2.1-1.9 2.1h-22.3c-1.4-7.2-7.7-12.6-15.2-12.6-7.6 0-13.9 5.4-15.2 12.6H94c-1.7 0-3 1.3-3 3s1.3 3 3 3h31.9c1.4 7.1 7.7 12.4 15.2 12.4 7.5 0 13.7-5.3 15.2-12.4h22.3c4.3 0 7.9-3.7 7.9-8.1v-51c0-3.9-3.1-7-6.8-7zM72.4 134.2c5.2 0 9.5 4.3 9.5 9.5s-4.3 9.5-9.5 9.5-9.5-4.3-9.5-9.5 4.2-9.5 9.5-9.5zm68.7 19c-5.2 0-9.5-4.3-9.5-9.5s4.3-9.5 9.5-9.5 9.5 4.3 9.5 9.5-4.3 9.5-9.5 9.5z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <span>
+                        FREE DELIVERY</span>
+                    <p>Delivered to your door step</p>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+
+                <div class="cont-i">
+                    <div class="get-fresh">
+                        <svg preserveAspectRatio="none" data-bbox="31 23.534 138.1 152.966"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="31 23.534 138.1 152.966" role="presentation"
+                            aria-hidden="true">
+                            <g>
+                                <path
+                                    d="M161.6 59.8h-43.7c1.1-1.1 2.3-2.3 3.3-3.7 4.1-5.4 6.2-11.4 5.5-16.2-.4-2.6-1.5-4.7-3.3-6.1-5.4-4-14.4-.5-21 8.1-.4.5-.7 1-1 1.5-.2-.6-.3-1.3-.5-1.9-3.5-12-11-19.5-17.4-17.7-2 .6-3.7 2-4.9 4.1-2.5 4.5-2.7 12.2-.5 20 1.4 4.8 3.4 8.9 5.8 11.9H38.4c-4.1 0-7.4 3.3-7.4 7.4V87c0 4.1 3.3 7.4 7.4 7.4h4.4v72c0 5.7 4.3 10.1 9.8 10.1h94.9c5.5 0 9.8-4.4 9.8-10.1v-72h4.4c4.1 0 7.4-3.3 7.4-7.4V67.2c-.1-4.1-3.4-7.4-7.5-7.4zm-54.5-14.2c4.9-6.4 10.7-8.4 12.6-6.9.5.4.9 1.1 1 2.1.4 3.1-1.3 7.7-4.3 11.8-3.6 4.7-7.8 7.1-10.5 7.3h-1c-.5-.1-.9-.2-1.2-.4-.5-.4-.9-1.1-1-2.1-.4-3.2 1.3-7.8 4.4-11.8zm-23.3.6c-2-7.1-1.5-12.8-.1-15.4.3-.5.7-1.1 1.3-1.3.1 0 .3-.1.4-.1 2.4 0 7.1 5 9.5 13.6 2 7.1 1.5 12.8.1 15.4-.3.5-.7 1.1-1.3 1.3h-.5c-2.3 0-6.9-5-9.4-13.5zM37 87V67.2c0-.8.6-1.4 1.4-1.4h46.9v22.6H38.4c-.8 0-1.4-.6-1.4-1.4zm54.2 83.5v-41.3c0-1.7-1.3-3-3-3s-3 1.3-3 3v41.3H52.5c-2.1 0-3.8-1.8-3.8-4.1v-72h36.5v15.7c0 1.7 1.3 3 3 3s3-1.3 3-3V65.9h17.5v104.6H91.2zm60.1-4.1c0 2.3-1.7 4.1-3.8 4.1h-32.7V94.4h36.5v72zM163 87c0 .8-.6 1.4-1.4 1.4h-46.9V65.8h46.9c.8 0 1.4.6 1.4 1.4V87z">
+                                </path>
+                            </g>
+                        </svg>
+                    </div>
+                    <span>
+                        SPECIAL GIFT WRAPS</span>
+                    <p>Send a sweet surprise</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <button id="chat-button"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+            style="border-radius: 0px; fill: rgb(255, 255, 255); width: 32px; height: 32px; flex-shrink: 0;">
+            <path d="M16 2C8.28 2 2 7.8 2 14.93a12.144 12.144 0 001.696 6.15l-1.668 7.51A1.16 1.16 0 003.63 29.9l6.914-3.072A14.835 14.835 0 0016 27.861c7.72 0 14-5.8 14-12.93S23.72 2 16 2zm4.508 16.32h-9.016a1.16 1.16 0 010-2.32h9.016a1.16 1.16 0 010 2.32zm0-4.638h-9.016a1.16 1.16 0
+     010-2.318h9.016a1.16 1.16 0 110 2.318z" fill="currentColor" fill-rule="nonzero"></path>
+        </svg></button>
+
+    <div id="chat-container">
+        <div class="chat-header">
+            Deina's Bites <span id="close-chat" style="cursor: pointer; float: right;">✖</span>
+            <div class="body" id="body">
+                <p><strong></strong> We’ll reply as soon as we can</p>
+            </div>
+        </div>
+
+
+
+
+       <!-- testimonials -->
+      
+        <!-- chat -->
+        <div class="chat-body" id="chat-body">
+
+        </div>
+        <div class="input-container ">
+            <input type="text" id="chat-input" placeholder="Type Your Message..">
+
+            <svg class="input-icon emoji-icon" viewBox="0 0 20 20" fill="currentColor" width="16px" height="16px">
+                <path
+                    d="M10,0a10,10,0,1,0,9.85,8.26A10,10,0,0,0,10,0Zm0,19A9,9,0,1,1,18.87,8.44,9.11,9.11,0,0,1,19,10,9,9,0,0,1,10,19Zm4.23-6.88a4.5,4.5,0,0,1-8.72,0l1-.25a3.5,3.5,0,0,0,6.78,0ZM8,8A1,1,0,1,1,7,7,1,1,0,0,1,8,8Zm6,0a1,1,0,1,1-1-1A1,1,0,0,1,14,8Z">
+                </path>
+            </svg>
+            <svg class="input-icon mic-icon" viewBox="0 0 9 23" fill="currentColor" width="7px" height="17px">
+                <path
+                    d="M4.5,23A4.5,4.5,0,0,1,0,18.5V4.5a4.5,4.5,0,0,1,9,0H8a3.5,3.5,0,0,0-7,0v14a3.5,3.5,0,0,0,7,0v-9a1.5,1.5,0,0,0-3,0V17H4V9.5a2.5,2.5,0,0,1,5,0v9A4.5,4.5,0,0,1,4.5,23Z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <!-- العمود الأول -->
+                <div class="col-md-3 text-center text-md-start">
+                    <h5>shop:</h5>
+                    <p>About</p>
+                    <p>FAQ</p>
+                    <p>Shipping / Pick Up</p>
+                    <p>Store Policy</p>
+                </div>
+                <div class="col-md-3 text-center text-md-start">
+                    <h5>OPENING HOURS:</h5>
+                    <p>Mon - Fri: 7am - 10pm</p>
+                    <p>Saturday: 8am - 10pm</p>
+                    <p>Sunday: 8am - 11pm</p>
+                </div>
+                <div class="col-md-3 text-center text-md-start">
+                    <h5>ADDRESS:</h5>
+                    <p>500 Terry Francine Street</p>
+                    <p>San Francisco, CA 94158</p>
+                    <p>Tel: 123-456-7890</p>
+                </div>
+                <div class="col-md-3 text-center text-md-start">
+                    <h5>GET IT FRESH:</h5>
+                    <div class="enter-e">
+                        <label for="email">Enter Your Email*</label><br>
+                        <input type="email" id="email" required>
+                    </div>
+                    <label>
+                        <input type="checkbox" id="checkbox">Yes, subscribe me to your newsletter.
+                    </label><br>
+                    <div class="su-scribe">
+                        <button class="subscribe">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- الحقوق -->
+            <div class="text-center mt-3">
+                <p class="mb-0">&copy; 2035 by Deina's Bites. Powered and secured by Wix</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

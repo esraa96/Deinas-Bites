@@ -1,0 +1,243 @@
+  [
+      {
+        "id": 101,
+        "name": "Jam & Poppy Seed Bites",
+        "description": "Delicious chocolate chip cookies made with high-quality chocolate chunks. Perfect for dessert or a snack",
+        "price": 600.0,
+        "category_id": 1,
+        "images": [
+          "./img/pro3.webp",
+          "./img/jammm.avif",
+          "./img/f61af8_00ad04f187404a2f9507ad3a772bc35f~mv2_d_4600_4600_s_4_2.avif"
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Chocolate Chip Cookies",
+        "description": "Delicious chocolate chip cookies made with high-quality chocolate chunks. Perfect for dessert or a snack.",
+        "price": 250.0,
+        "category_id": 2,
+        "images": [
+          "./img/f61af8_160773e7f2594ca48721f42c1723d2f0~mv2.avif",
+          "./img/f61af8_42eb031701d04527a103d2f4e49e1b5d~mv2.avif",
+          "./img/f61af8_3b71ca5f113844858b7eef32ba87ee7b~mv2_d_4442_4074_s_4_2.jpg"
+        ]
+      },
+      {
+        "id": 103,
+        "name": "Vanilla Cupcakes",
+        "description": "Soft and fluffy vanilla cupcakes topped with creamy vanilla frosting.",
+        "price": 150.0,
+        "category_id": 3,
+        "images": [
+          "./img/f61af8_2cf5a2ff20e54e029f48ca64373b2dab~mv2.avif",
+          "./img/f61af8_9e3cbb2440934ceea2e6ef037da64d40~mv2.avif",
+          "./img/f61af8_00ad04f187404a2f9507ad3a772bc35f~mv2_d_4600_4600_s_4_2.avif"
+        ]
+      },
+      {
+        "id": 104,
+        "name": "Lemon Muffins",
+        "description": "Light and tangy lemon muffins, perfect for breakfast or a quick snack.",
+        "price": 180.0,
+        "category_id": 1,
+        "images": [
+          "./img/f61af8_09a4b9d707684b96a9f60bfcefdaac6a~mv2.avif",
+          "./img/f61af8_8c8f73f4261e4502bb789bca0d946abd~mv2.avif",
+          "./img/2bisc.jpg"
+        ]
+      },
+      {
+        "id": 105,
+        "name": "kookies",
+        "description": "A delicious pie filled with mixed berries, perfect for any occasion.",
+        "price": 500.0,
+        "category_id": 2,
+        "images": [
+          "./img/christina-branco-7P-wc2Z2Ujs-unsplash (1).jpg",
+          "./img/dex-ezekiel-WSIqrH0fd9Y-unsplash.jpg",
+          "./img/f61af8_00ad04f187404a2f9507ad3a772bc35f~mv2_d_4600_4600_s_4_2.avif"
+        ]
+      },
+      {
+        "id": 106,
+        "name": "Cinnamon Rolls",
+        "description": "Freshly baked cinnamon rolls drizzled with icing, a perfect breakfast treat.",
+        "price": 300.0,
+        "category_id": 3,
+        "images": [
+          "./img/f61af8_e97476d90037447dbcbd4cf42ef5d564~mv2.avif",
+          "./img/f61af8_485506e6d037450bbd97184529dc4896~mv2.avif",
+          "./img/f61af8_3b71ca5f113844858b7eef32ba87ee7b~mv2_d_4442_4074_s_4_2.jpg"
+        ]
+      },
+      {
+        "id": 107,
+        "name": "Apple Pie",
+        "description": "A classic apple pie with a buttery, flaky crust and a sweet apple filling.",
+        "price": 550.0,
+        "category_id": 2,
+        "images": [
+          "./img/f61af8_444410fa0bc241ea8f53415fa7866bca~mv2.jpg",
+          "./img/f61af8_4117f239d6bb4ed7a8297d0c393d3f7b~mv2.jpg",
+          "./img/f61af8_3b71ca5f113844858b7eef32ba87ee7b~mv2_d_4442_4074_s_4_2.jpg"
+        ]
+      },
+      {
+        "id": 108,
+        "name": "Peach Cobbler",
+        "description": "A warm and sweet peach cobbler, a comforting dessert for any season.",
+        "price": 400.0,
+        "category_id": 1,
+        "images": [
+          "./img/f61af8_ec5c841b9cf643b186e85ba89b332a05~mv2.avif",
+          "./img/f61af8_882771ceb591478ab525da0d56e457e4~mv2.avif",
+          "./img/f61af8_3b71ca5f113844858b7eef32ba87ee7b~mv2_d_4442_4074_s_4_2.jpg"
+        ]
+      },
+      {
+        "id": 109,
+        "name": "Carrot Cake",
+        "description": "A moist and flavorful carrot cake topped with cream cheese frosting.",
+        "price": 450.0,
+        "category_id": 3,
+        "images": [
+          "./img/f61af8_7e8a55c41c0e4c378b7297dbcdced9eb~mv2.avif",
+          "./img/f61af8_ca9c6c81ee3c4b109bc80039c02dd711~mv2.avif",
+          "./img/2bisc.jpg"
+        ]
+      },
+      {
+        "id": 110,
+        "name": "Strawberry Shortcake",
+        "description": "Fresh strawberries with whipped cream layered on a light shortcake base.",
+        "price": 350.0,
+        "category_id": 2,
+        "images": [
+          "./img/heather-barnes-WbZesfqwR-A-unsplash.jpg",
+          "./img/heather-barnes-tAIV_oN-_-M-unsplash.jpg",
+          "./img/2bisc.jpg"
+        ]
+      },
+      {
+        "id": 111,
+        "name": "Pumpkin Spice Cake",
+        "description": "A seasonal pumpkin spice cake with rich cream cheese frosting.",
+        "price": 420.0,
+        "category_id": 3,
+        "images": [
+          "./img/pro1.png",
+          "./img/f61af8_4117f239d6bb4ed7a8297d0c393d3f7b~mv2.jpg",
+          "./img/f61af8_3b71ca5f113844858b7eef32ba87ee7b~mv2_d_4442_4074_s_4_2.jpg"
+        ]
+      },
+      {
+        "id": 112,
+        "name": "Donat",
+        "description": "Homemade banana bread with a moist texture and delicious flavor.",
+        "price": 180.0,
+        "category_id": 1,
+        "images": [
+          "./img/annie-spratt-EACvtuV2k2E-unsplash.jpg",
+          "./img/alexander-grey-_qS0EQGn6qg-unsplash.jpg",
+          "./img/f61af8_3b71ca5f113844858b7eef32ba87ee7b~mv2_d_4442_4074_s_4_2.jpg"
+        ]
+      },
+      {
+        "id": 113,
+        "name": "Chocolate Cake",
+        "description": "Rich and decadent chocolate cake with a smooth chocolate ganache.",
+        "price": 600.0,
+        "category_id": 2,
+        "images": [
+          "./img/f61af8_1b3458bed72c4f5290fc0c834f8aeb22~mv2.avif",
+          "./img/chocolate_cake2.avif",
+          "./img/chocolate_cake3.avif"
+        ]
+      },
+      {
+        "id": 114,
+        "name": "Oatmeal Cookies",
+        "description": "Chewy oatmeal cookies packed with raisins and spices.",
+        "price": 250.0,
+        "category_id": 3,
+        "images": [
+          "./img/strawberry-cake-mix-cookies-strawberry-cookies-5-of-6-602x900.webp",
+          "./img/strawberry-cake-mix-cookies-stacked-768x1088.jpg",
+          "./img/2bisc.jpg"
+        ]
+      },
+      {
+        "id": 115,
+        "name": "Cheesecake",
+        "description": "A creamy and smooth cheesecake with a graham cracker crust.",
+        "price": 700.0,
+        "category_id": 2,
+        "images": [
+          "./img/Almond-butter-bars-2-683x1024.jpg",
+          "./img/Almond-butter-bars-7.jpg",
+          "./img/2bisc.jpg"
+        ]
+      },
+      {
+        "id": 116,
+        "name": "Blueberry Muffins",
+        "description": "Fluffy muffins bursting with fresh blueberries.",
+        "price": 220.0,
+        "category_id": 1,
+        "images": [
+          "./img/chocolate_sheet_cake6081-640x960.jpg",
+          "./img/sheet-cake-resize-2-2.jpg",
+          "./img/2bisc.jpg"
+        ]
+      },
+      {
+        "id": 117,
+        "name": "Coconut Macaroons",
+        "description": "Sweet and chewy coconut macaroons, perfect for coconut lovers.",
+        "price": 280.0,
+        "category_id": 3,
+        "images": [
+          "./img/habib-dadkhah-bX7oRJ1XD2s-unsplash.jpg",
+          "./img/girl-with-red-hat-4Mh3AjljekQ-unsplash.jpg",
+          "./img/2bisc.jpg"
+        ]
+      },
+      {
+        "id": 118,
+        "name": "Raspberry Tarts",
+        "description": "Fresh raspberry tarts with a buttery crust and sweet raspberry filling.",
+        "price": 350.0,
+        "category_id": 2,
+        "images": [
+          "./img/hghghgh.jpg",
+          "./img/Lemon-Cake-Mix-Cookies-with-Powdered-Sugar-750x1125.jpg",
+          "./img/2bisc.jpg"
+        ]
+      },
+      {
+        "id": 119,
+        "name": "Lemon Bars",
+        "description": "Tangy and sweet lemon bars with a buttery crust.",
+        "price": 220.0,
+        "category_id": 3,
+        "images": [
+          "./img/julissa-capdevilla-tDoHiqXl9b8-unsplash.jpg",
+          "./img/mae-mu-kID9sxbJ3BQ-unsplash.jpg",
+          "./img/2bisc.jpg"
+        ]
+      },
+      {
+        "id": 120,
+        "name": "Peanut Butter Cookies",
+        "description": "Chewy peanut butter cookies with a rich peanut flavor.",
+        "price": 180.0,
+        "category_id": 1,
+        "images": [
+          "./img/maple-bourbon-cheesecake-bars-RU287650-9776801fe3324f8684aeb56d7d5d09b9.jpg",
+          "./img/R.jpg",
+          "./img/2bisc.jpg"
+        ]
+      }
+    ]
+  

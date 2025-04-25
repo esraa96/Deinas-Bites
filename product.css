@@ -1,0 +1,130 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* ده هيخلي البوتون يفضل تحت */
+    height: 90%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.product-card:hover {
+    box-shadow: 0 0 10px rgb(218, 179, 179);
+}
+
+.product-title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-price{
+    color: rgb(186, 75, 188) !important;
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    padding: 5px 10px;
+    background-color: #3f4040 !important;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #d295bf !important;
+}
+
+.image-slider {
+    position: relative;
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+}
+/* 
+.slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+} */
+
+.slider-image.active {
+    opacity: 1;
+}
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-slider {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .slider-images {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: 0;
+  }
+  
+  .slider-image.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  /* أزرار التنقل */
+  .slider-arrow  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .left-arrow :hover,
+  .right-arrow  :hover {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .left-arrow  {
+    left: 10px;
+  }
+  
+  .right-arrow  {
+    right: 10px;
+  }
+  
